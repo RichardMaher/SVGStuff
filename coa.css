@@ -2,3 +2,10 @@
   --coa-bg-color: yellow;
   --coa-stroke-color: #fff;
 }
+
+.st1{fill:var(--coa-bg-color);stroke:var(--coa-stroke-color);}
+.st2{fill:var(--coa-bg-color);fill-rule:evenodd;clip-rule:evenodd}
+.st3{fill:none;stroke:var(--coa-bg-color);stroke-width:1.78}
+.st5{fill:none;stroke:var(--coa-stroke-color);stroke-width:.45}
+.st6{fill:none;stroke:var(--coa-bg-color);stroke-width:.67}
+.st7{fill:none;stroke:var(--coa-bg-color);stroke-width:.45;stroke-miterlimit:5}

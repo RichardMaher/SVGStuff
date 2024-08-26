@@ -1,0 +1,115 @@
+:root {
+  --main-bg-color: #002f5f;
+  --coa-body-color: #ffd700;
+}
+ 	@-ms-viewport{
+		width: device-width;
+		height: auto;
+	}	
+	*, *:before, *:after{
+		box-sizing: inherit;
+		-webkit-touch-callout: none;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-moz-user-select: none;
+	}		
+	::-ms-clear{
+		display: none;
+	}		
+	html, body{
+		margin: 0px;
+		box-sizing: border-box;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	    -ms-overflow-style: none;
+        -ms-content-zooming: none;
+		touch-action: manipulation;
+	}
+    body {
+		background-image: radial-gradient(#fff, #1ecbe1, #ADD8E6);
+        overscroll-behavior: none;
+        pointer-events: auto;
+        display: flex;
+		font-size: 14px;
+        flex-direction: column;
+        height: 100vh;
+        padding: 1em;
+    } 	
+	
+	.wholeScreen{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		min-height: 0px;
+	}	
+
+    div#headerDiv{
+		display: flex;
+		order: 1;
+		width: 100%;
+		padding: 0.5em;
+		align-items: center;
+		flex-grow: 10;
+		flex-shrink: 10;
+		flex-basis: 10%;
+		color: var(--coa-body-color);
+		text-shadow: 0 -.3em .3em #fff;
+	}
+
+.field__items {
+		display: flex;
+		order: 2;
+		align-items: center;
+		flex-grow: 90;
+		flex-shrink: 90;
+		flex-basis: 90%;
+		min-height: 0;
+}
+.field__item {
+    display: flex;
+	order: 3;
+    justify-content: center;
+	align-content: center;
+	flex-basis: 100%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	max-height: 100%;
+	padding: 1em;
+}
+
+#crest {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) {
+	body {
+		font-size: 24px;
+	}
+}		
+@media only screen 
+and (min-device-width : 1025px) {
+	body {
+		font-size: 32px;
+	}
+}	
+@media only screen 
+and (min-device-width : 3840px) (
+	body {
+		font-size: 48px;
+	}
+}	
