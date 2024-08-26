@@ -2,16 +2,6 @@
 <?xml-stylesheet type="text/css" href="coa.css" ?>
 <svg xmlns="http://www.w3.org/2000/svg" id="wa_state_crest" viewBox="0 0 250 182.6">
 <title>WA State Coat of Arms</title>
-  <style> 
-    <![CDATA[<!--<!--
-		.st1{fill:var(--coa-bg-color);stroke:var(--coa-stroke-color);}
-		.st2{fill:var(--coa-bg-color);fill-rule:evenodd;clip-rule:evenodd}
-		.st3{fill:none;stroke:var(--coa-bg-color);stroke-width:1.78}
-		.st5{fill:none;stroke:var(--coa-stroke-color);stroke-width:.45}
-		.st6{fill:none;stroke:var(--coa-bg-color);stroke-width:.67}
-		.st7{fill:none;stroke:var(--coa-bg-color);stroke-width:.45;stroke-miterlimit:5}
-		]]>
-  </style>
   <defs>
     <path id="SVGID_1_" d="M0 0h250v182.6H0z"/>
   </defs>
